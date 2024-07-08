@@ -1,1 +1,1 @@
-# odin-landing-page
+# ODIN PROJECT: LANDING-PAGE EXERCISES

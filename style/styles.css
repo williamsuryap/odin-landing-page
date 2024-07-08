@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header, footer {
+    background-color: #1f2937;
+}
+
+#container {
+    padding: 16px 256px 64px 256px;
+}
+
+nav {
+    display: flex;
+    margin-bottom: 64px;
+}
+
+nav h1 {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    column-gap: 16px;
+    margin-left: auto;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    list-style: none;
+}
+
+.hero {
+    display: flex;
+    column-gap: 32px;
+}
+
+.hero-left h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-left p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-left button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: 900;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: none;
+}
+
+.hero-right img {
+    width: 480px;
+}
+
+.info h1 {
+    margin-top: 24px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 64px;
+    margin: 32px 0;
+}
+
+.card {
+    width: 150px;
+}
+
+.square {
+    border: 3px solid #3882f6;
+    width: 150px;
+    aspect-ratio: 1/1;
+    border-radius: 10%;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+}
+
+blockquote {
+    margin-top: 48px;
+    text-align: justify;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote p {
+    text-align: right;
+    font-weight: 900;
+}
+
+.signup-box {
+    margin: 48px auto;
+    padding: 32px 56px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-right button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-weight: 900;
+}
+
+footer {
+    padding: 24px
+}
+
+footer p {
+    color: #e5e7eb;
+    text-align: center;
+}
